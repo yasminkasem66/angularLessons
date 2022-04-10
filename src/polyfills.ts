@@ -60,6 +60,10 @@
 import 'zone.js';  // Included with Angular CLI.
 
 
+
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+
+// note this file fills the gaps between the features of JavaScript that angular needs and the feautres supported in the current browsers
