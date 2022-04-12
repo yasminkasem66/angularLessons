@@ -9,23 +9,34 @@ import { UsernameValidtor } from './username.validator';
 })
 export class SignupFormComponent {
   Registration = new FormGroup({
-    username: new FormControl(
-      '',
-      [
+    account: new FormGroup({
+      username: new FormControl(
+        '',
+        [
+          Validators.required,
+          Validators.minLength(3),
+          UsernameValidtor.cannotContainSpace,
+        ],
+        // asynch validtor
+        UsernameValidtor.shouldBeUnique
+      ),
+      password: new FormControl('', [
         Validators.required,
-        Validators.minLength(3),
-        UsernameValidtor.cannotContainSpace,
-      ],
-      // asynch validtor
-      UsernameValidtor.shouldBeUnique
-    ),
-    password: new FormControl('', Validators.required),
+        Validators.maxLength(10),
+      ])
+    }),
   });
   //this is a property , it looks like a field from the outside but internally they are like methods
   get username() {
-    return this.Registration.get('username');
+    return this.Registration.get('account.username');
   }
   get password() {
-    return this.Registration.get('password');
+    return this.Registration.get('account.password');
+  }
+
+  login() {
+    this.Registration.setErrors({
+      invalidLogin: true,
+    });
   }
 }
