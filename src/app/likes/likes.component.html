@@ -1,3 +1,32 @@
+<div class="m-5">
+    
+    <i  
+    [ngClass]="isSelected ? 'fa-solid fa-heart' : 'fa-solid fa-heart-crack'" 
+    [style.color]="isSelected ? 'red' : 'gray'" 
+    [style.cursor]="isSelected ? 'pointer' : 'arrow'" 
+    (click)="onClick()" 
+    ></i> {{likesCount}}
 
-<i  [ngClass]="isSelected ? 'fa-solid fa-heart' : 'fa-solid fa-heart-crack'" (click)="onClick()" class="mt-4"></i> {{likesCount}}
+    <span
+    class="fa-solid"
+    [class.fa-heart]="!isSelected"
+    [class.fa-heart-crack]="isSelected"
+    [class.highlight]="isSelected"
+    (click)="onClick()" 
+
+    >
+    </span>
+
+
+    <br>
+    <ng-content select=".body"></ng-content>
+
+    <br>
+    <input type="text" [(ngModel)]="title" id="">
+    <br>
+    {{title | titleCase}}
+
+
+
+</div>
 

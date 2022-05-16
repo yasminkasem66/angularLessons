@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-likes',
@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./likes.component.scss']
 })
 export class LikesComponent implements OnInit {
-  likesCount:number=0;
-  isSelected:boolean=false;
+  @Input('likesCount') likesCount:number=0;
+  title!:string;
+  @Input('isFavorite') isSelected:boolean=false;
+  @Output() jasmin =new EventEmitter();
   constructor() { }
 
   // onClick(){
@@ -31,8 +33,9 @@ export class LikesComponent implements OnInit {
   // }
 
   onClick(){
+    this.likesCount += this.isSelected ? -1 :1;
     this.isSelected =!this.isSelected;
-  this.likesCount += this.isSelected ? 1 :-1;
+    this.jasmin.emit(this.isSelected);
   }
 
   ngOnInit(): void {

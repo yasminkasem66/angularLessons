@@ -3,6 +3,28 @@
     
     <!-- <signup-form></signup-form> -->
     <!-- <app-new-course-form></app-new-course-form> -->
-<!-- <app-likes></app-likes> -->
-<app-richtexteditor></app-richtexteditor>
+    <!-- <app-richtexteditor></app-richtexteditor> -->
+    <app-likes [likesCount]="post.likesCount" [isFavorite]="post.isFavorite" (jasmin)="onFavorityChanged($event)" >
+        <div class="body">break and test</div>    
+    </app-likes>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="panel panel-default">
+    <div class="panel-heading">
+        <ng-content select=".heading"></ng-content>
+    </div>
+    <div class="panel-body">
+        <ng-content select=".body"></ng-content>
+    </div>
+</div> -->
