@@ -8,12 +8,12 @@ import { Exercise1Component } from './exercise1/exercise1.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
 import { NewCourseFOrmComponent } from './new-course-form/new-course-form.component';
 import { LikesComponent } from './likes/likes.component';
-import { RichtexteditorComponent } from './richtexteditor/richtexteditor.component';
 import { RichTextEditorModule, ToolbarService, TableService, QuickToolbarService, 
   LinkService, ImageService, HtmlEditorService, MarkdownEditorService } from '@syncfusion/ej2-angular-richtexteditor';
 import { TitleCasePipe } from './pipes/title-case.pipe';
+import { InputformatDirective } from './directives/inputformat.directive';
 @NgModule({
-  declarations: [AppComponent, SignupFormComponent, Exercise1Component, NewCourseFOrmComponent, LikesComponent, RichtexteditorComponent, TitleCasePipe],
+  declarations: [AppComponent, SignupFormComponent, Exercise1Component, NewCourseFOrmComponent, LikesComponent, TitleCasePipe, InputformatDirective],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule,RichTextEditorModule],
   providers: [ToolbarService, LinkService, ImageService, HtmlEditorService, TableService,
     QuickToolbarService, MarkdownEditorService],
