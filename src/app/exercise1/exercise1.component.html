@@ -1,4 +1,46 @@
-<p>exercise1 works!</p>
+<!-- template dreiven form -->
 
-<p>{{likes}}</p>
-<button (click)="inclike()" >click</button>
+<form class="m-5" #f="ngForm" (ngSubmit)="submitt(f)">
+    <div class="" ngModelGroup="personalInfo" #personalInfo="ngModelGroup">
+        <div class="form-group">
+            <label for="name">First Name</label>
+            <input ngModel #fname="ngModel" type="text" id="name"   name="name" (change)="log(fname)" class="form-control" required maxlength="10" minlength="3" pattern="yasmin">
+            <div class="alert alert-danger" *ngIf="!fname.valid && fname.touched">
+                <div *ngIf="fname.errors?.required"> name is required</div>
+                <div *ngIf="fname.errors?.minlength"> name minlength is{{fname.errors?.minlength.requiredLength}}</div>
+                <div *ngIf="fname.errors?.pattern"> doesn't match the pattern</div>       
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="sname">Second Name</label>
+            <input ngModel #sname="ngModel" type="text" id="sname"   name="sname" (change)="log(sname)" class="form-control" required maxlength="10" minlength="3" pattern="kasem">
+            <div class="alert alert-danger" *ngIf="!sname.valid && sname.touched">
+                <div *ngIf="sname.errors?.required"> name is required</div>
+                <div *ngIf="sname.errors?.minlength"> name minlength is{{sname.errors?.minlength.requiredLength}}</div>
+                <div *ngIf="fname.errors?.pattern"> doesn't match the pattern</div>       
+            </div>
+        </div>
+        <div *ngIf="!personalInfo.valid">...</div>
+
+
+    </div>
+    <div class="form-group mb-3">
+        <label for="comment">Comment</label>
+        <textarea id="comment" cols="30" rows="10"   name="comment" class="form-control" ngModel  #comment="ngModel" required></textarea>
+        <div class="alert alert-danger" *ngIf="!comment.valid && comment.touched">
+            <div *ngIf="comment.errors?.required"> comment is required</div>
+            
+        </div>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" ngModel name="isSubscribe">Subscribe to mailing list
+        </label>
+    </div>
+    <p>
+        {{f.value |json}}
+    </p>
+    <button class="btn btn-primary" [disabled]="!f.valid">
+        Save
+    </button>
+</form>

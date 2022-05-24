@@ -1,0 +1,16 @@
+<div class="zippy m-5">
+    <div class="zippy-heading"
+    [class.expand]="Expanded"
+    (click)="toggle()">
+        {{title}}
+        <span class="fa-solid "
+        [ngClass]="{'fa-arrow-up':Expanded,
+    'fa-arrow-down':!Expanded}">
+
+        </span>
+    </div>
+    <div class="zippy-body"
+    *ngIf="Expanded">
+        <ng-content ></ng-content>
+    </div>
+</div>

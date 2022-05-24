@@ -5,12 +5,16 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './exercise1.component.html',
   styleUrls: ['./exercise1.component.scss'],
 })
-export class Exercise1Component implements OnInit {
-  public likes: number = 0;
-  constructor() {}
+export class Exercise1Component {
+  // template dreven form
+  log(x:any){
+console.log({x});
 
-  inclike() {
-    this.likes++;
   }
-  ngOnInit(): void {}
+
+
+  submitt(f:any){
+    console.log(f.value);
+    console.log({f});
+  }
 }

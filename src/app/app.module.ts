@@ -12,8 +12,9 @@ import { RichTextEditorModule, ToolbarService, TableService, QuickToolbarService
   LinkService, ImageService, HtmlEditorService, MarkdownEditorService } from '@syncfusion/ej2-angular-richtexteditor';
 import { TitleCasePipe } from './pipes/title-case.pipe';
 import { InputformatDirective } from './directives/inputformat.directive';
+import { ZippyComponent } from './zippy/zippy.component';
 @NgModule({
-  declarations: [AppComponent, SignupFormComponent, Exercise1Component, NewCourseFOrmComponent, LikesComponent, TitleCasePipe, InputformatDirective],
+  declarations: [AppComponent, SignupFormComponent, Exercise1Component, NewCourseFOrmComponent, LikesComponent, TitleCasePipe, InputformatDirective, ZippyComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule,RichTextEditorModule],
   providers: [ToolbarService, LinkService, ImageService, HtmlEditorService, TableService,
     QuickToolbarService, MarkdownEditorService],
