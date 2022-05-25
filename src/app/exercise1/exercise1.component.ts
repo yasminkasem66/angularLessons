@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Exercise1Component {
   // template dreven form
+  contactMethod=[
+    {id:1, name:"Email"},
+    {id:2, name:"phone"}
+  ]
   log(x:any){
 console.log({x});
 
