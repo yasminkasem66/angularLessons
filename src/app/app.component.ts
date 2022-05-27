@@ -6,7 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angularecommerce';
+   post={
+    title:"jasmin is good",
+    isFavorite:false,
+    likesCount:100
+  }
+ 
+  onFavorityChanged(x:boolean){
+    console.log("chaaaaaaaaanged",x);
+  }
+
 }
 
 // webpack is a build autometation tool get all script and style sheet compine them in a bundel and minify that bundel all bundel genereted injected in html, all style sheet compild in js bundel

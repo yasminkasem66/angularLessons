@@ -1,0 +1,51 @@
+<div class="m-5">
+    
+    <i  
+    [ngClass]="isSelected ? 'fa-solid fa-heart' : 'fa-solid fa-heart-crack'" 
+    [style.color]="isSelected ? 'red' : 'gray'" 
+    [style.cursor]="isSelected ? 'pointer' : 'arrow'" 
+    (click)="onClick()" 
+    ></i> 
+
+    <hr/>
+    <span
+    class="fa-solid"
+    [class.fa-heart]="!isSelected"
+    [class.fa-heart-crack]="isSelected"
+    [ngStyle]="{'color':isSelected ? 'red' : 'gray',
+    'cursor':isSelected ? 'pointer' : 'arrow'}"
+    (click)="onClick()" 
+    >
+    </span>
+
+    <hr/>
+    <span
+    class="fa-solid"
+    [ngClass]="{'fa-heart':!isSelected,
+    'fa-heart-crack':isSelected}"
+    [class.highlight]="isSelected"
+    (click)="onClick()" 
+
+    >
+    </span>
+
+
+    <br>
+    <ng-content select=".body"></ng-content>
+
+    <!-- pipe to change upper and lower case of the input -->
+     <p>pipe</p>
+    <br>
+    <input type="text" [(ngModel)]="title" id="">
+    {{title | titleCase}}
+    <br>
+    <!-- directive to change input to upper or lower case  -->
+    <p>directive</p>
+    <br>
+    <input type="text" [appInputformat]="'uppercccase'" >
+   
+
+
+
+</div>
+
