@@ -13,8 +13,9 @@ import { RichTextEditorModule, ToolbarService, TableService, QuickToolbarService
 import { TitleCasePipe } from './pipes/title-case.pipe';
 import { InputformatDirective } from './directives/inputformat.directive';
 import { ZippyComponent } from './zippy/zippy.component';
+import { FormWorkTestComponent } from './form-work-test/form-work-test.component';
 @NgModule({
-  declarations: [AppComponent, SignupFormComponent, Exercise1Component, NewCourseFOrmComponent, LikesComponent, TitleCasePipe, InputformatDirective, ZippyComponent],
+  declarations: [AppComponent, SignupFormComponent, Exercise1Component, NewCourseFOrmComponent, LikesComponent, TitleCasePipe, InputformatDirective, ZippyComponent, FormWorkTestComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule,RichTextEditorModule],
   providers: [ToolbarService, LinkService, ImageService, HtmlEditorService, TableService,
     QuickToolbarService, MarkdownEditorService],

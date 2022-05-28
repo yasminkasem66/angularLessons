@@ -1,0 +1,62 @@
+<!-- **************single form control -->
+<!-- <label for="name">Name: </label>
+    <input id="name" type="text" [formControl]="name">
+    <button type="button" class=" btn btn-primary mx-2" (click)="updateName()">Update Name</button>
+    <p>Value: {{ name.value }}</p> -->
+    
+    
+<!-- *************Form Group form control -->
+<!-- <form [formGroup]="profileForm"  (ngSubmit)="onSubmit()">
+    <label for="first-name">First Name: </label>
+    <input id="first-name"  class="form-control" type="text" formControlName="firstName" required>
+  
+    <label for="last-name">Last Name: </label>
+    <input id="last-name" class="form-control" type="text" formControlName="lastName" required>
+    <br>
+    <p>Complete the form to enable button.</p>
+    <button type="submit" class=" btn btn-primary mx-2" [disabled]="!profileForm.valid">Submit</button>
+</form> -->
+    
+<!-- *************Form Group form control -->
+<form [formGroup]="profileForm"  (ngSubmit)="onSubmit()">
+    <label for="first-name">First Name: </label>
+    <input id="first-name"  class="form-control" type="text" formControlName="firstName" required>
+  
+    <label for="last-name">Last Name: </label>
+    <input id="last-name" class="form-control" type="text" formControlName="lastName" required>
+    <br>
+
+    <div formGroupName="address">
+        <h2>Address</h2>
+      
+        <label for="street">Street: </label>
+        <input id="street" type="text" class="form-control" formControlName="street">
+      
+        <label for="city">City: </label>
+        <input id="city" type="text" class="form-control" formControlName="city">
+      
+        <label for="state">State: </label>
+        <input id="state" type="text" class="form-control" formControlName="state">
+      
+        <label for="zip">Zip Code: </label>
+        <input id="zip" type="text" class="form-control" formControlName="zip">
+    </div>
+
+
+    <div formArrayName="aliases">
+        <h2>Aliases</h2>
+        <button type="button" class=" btn btn-info mx-2" (click)="addAlias()">+ Add another alias</button>
+      
+        <div *ngFor="let alias of aliases.controls; let i=index">
+          <!-- The repeated alias template -->
+          <label for="alias-{{ i }}">Alias:</label>
+          <input id="alias-{{ i }}" type="text"  class="form-control" [formControlName]="i">
+        </div>
+      </div>
+
+    <p>Complete the form to enable button.</p>
+    <button type="button" class=" btn btn-primary mx-2" (click)="updateProfile()">Update Name</button>
+    <button type="submit" class=" btn btn-primary mx-2" [disabled]="!profileForm.valid">Submit</button>
+    <p>Value {{profileForm.value |json}}</p>
+    <!-- {{profileForm.value |json}} -->
+</form>
