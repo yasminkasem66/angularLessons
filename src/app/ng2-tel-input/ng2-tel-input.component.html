@@ -1,0 +1,9 @@
+
+  <input type="tel" ng2TelInput [ng2TelInputOptions]="{initialCountry: 'in'}" #country  (countryChange)="onCountryChange($event)" />
+
+  <pre>
+    {{country.value | json}}
+  </pre>
+
+  <!--- Second way --->
+    <!-- <input type="tel" ng2TelInput value="+919898989898" /> -->

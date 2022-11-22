@@ -1,0 +1,1287 @@
+{
+  "code": 0,
+  "message": "General Success",
+  "data": [
+    {
+      "countryId": 1,
+      "countryNamePlusCountryCode": "Afghanistan  (+93)",
+      "mobileNumberRegexValidator": "0[2-7]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/af.svg",
+      "countryCode": "+93"
+    },
+    {
+      "countryId": 2,
+      "countryNamePlusCountryCode": "Albania  (+355)",
+      "mobileNumberRegexValidator": "06(7|8|9)\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/al.svg",
+      "countryCode": "+355"
+    },
+    {
+      "countryId": 3,
+      "countryNamePlusCountryCode": "Algeria  (+213)",
+      "mobileNumberRegexValidator": "0(5|6|7)\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/dz.svg",
+      "countryCode": "+213"
+    },
+    {
+      "countryId": 4,
+      "countryNamePlusCountryCode": "Andorra  (+376)",
+      "mobileNumberRegexValidator": "0(3|4|6)\\d{5}$",
+      "countryFlagImage": "D:/flags/4x3/ad.svg",
+      "countryCode": "+376"
+    },
+    {
+      "countryId": 5,
+      "countryNamePlusCountryCode": "Angola  (+244)",
+      "mobileNumberRegexValidator": "\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/ao.svg",
+      "countryCode": "+244"
+    },
+    {
+      "countryId": 6,
+      "countryNamePlusCountryCode": "Argentina  (+54)",
+      "mobileNumberRegexValidator": "^9(11|[2368])\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/ar.svg",
+      "countryCode": "+54"
+    },
+    {
+      "countryId": 7,
+      "countryNamePlusCountryCode": "Armenia  (+374)",
+      "mobileNumberRegexValidator": "4[134]|55|77|88|9[134689])\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/am.svg",
+      "countryCode": "+374"
+    },
+    {
+      "countryId": 8,
+      "countryNamePlusCountryCode": "Australia  (+61)",
+      "mobileNumberRegexValidator": "04[0-9]{2}\\s?([0-9]{3}\\s?[0-9]{3}|[0-9]{2}\\s?[0-9]{2}\\s?[0-9]{2})$",
+      "countryFlagImage": "D:/flags/4x3/au.svg",
+      "countryCode": "+61"
+    },
+    {
+      "countryId": 9,
+      "countryNamePlusCountryCode": "Austria  (+43)",
+      "mobileNumberRegexValidator": "(?(2)|0)6(?:64|(?:50|6[0457]|7[0678]|8[0168]|9[09]))",
+      "countryFlagImage": "D:/flags/4x3/at.svg",
+      "countryCode": "+43"
+    },
+    {
+      "countryId": 10,
+      "countryNamePlusCountryCode": "Azerbaijan  (+994)",
+      "mobileNumberRegexValidator": "(10|5[015]|7[07]|99)\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/az.svg",
+      "countryCode": "+994"
+    },
+    {
+      "countryId": 11,
+      "countryNamePlusCountryCode": "Bahrain  (+973)",
+      "mobileNumberRegexValidator": "(3|6)\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/bh.svg",
+      "countryCode": "+973"
+    },
+    {
+      "countryId": 12,
+      "countryNamePlusCountryCode": "Bangladesh  (+880)",
+      "mobileNumberRegexValidator": "1[13456789][0-9]{8}$",
+      "countryFlagImage": "D:/flags/4x3/bd.svg",
+      "countryCode": "+880"
+    },
+    {
+      "countryId": 13,
+      "countryNamePlusCountryCode": "Belarus  (+375)",
+      "mobileNumberRegexValidator": "^(\\+?375)?(24|25|29|33|44)\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/by.svg",
+      "countryCode": "+375"
+    },
+    {
+      "countryId": 14,
+      "countryNamePlusCountryCode": "Belgium  (+32)",
+      "mobileNumberRegexValidator": "04[6-9]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/be.svg",
+      "countryCode": "+32"
+    },
+    {
+      "countryId": 15,
+      "countryNamePlusCountryCode": "Belize  (+501)",
+      "mobileNumberRegexValidator": "(^(60|61|66|67)\\d{5}$)|(603|606|608|609|614|615|620|621|622|623|624|625)\\d{4}$",
+      "countryFlagImage": "D:/flags/4x3/bz.svg",
+      "countryCode": "+501"
+    },
+    {
+      "countryId": 16,
+      "countryNamePlusCountryCode": "Benin  (+229)",
+      "mobileNumberRegexValidator": "((40|42|44)\\d{9}$)|(6[0-9]\\d{9}$)|(9[0-3]\\d{9}$)|(9[5-8]\\d{9}$)",
+      "countryFlagImage": "D:/flags/4x3/bj.svg",
+      "countryCode": "+229"
+    },
+    {
+      "countryId": 17,
+      "countryNamePlusCountryCode": "Bolivia  (+591)",
+      "mobileNumberRegexValidator": "[6|7]\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/bo.svg",
+      "countryCode": "+591"
+    },
+    {
+      "countryId": 18,
+      "countryNamePlusCountryCode": "Bosnia and Herzegovina  (+387)",
+      "mobileNumberRegexValidator": "(^([0-3]|[5-6])\\d{6}$)|(^4\\d{7}$)",
+      "countryFlagImage": "D:/flags/4x3/ba.svg",
+      "countryCode": "+387"
+    },
+    {
+      "countryId": 19,
+      "countryNamePlusCountryCode": "Botswana  (+267)",
+      "mobileNumberRegexValidator": "^(\\+?267)?(7[1-8]{1})\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/bw.svg",
+      "countryCode": "+267"
+    },
+    {
+      "countryId": 20,
+      "countryNamePlusCountryCode": "Brazil  (+55)",
+      "mobileNumberRegexValidator": "^(?:(55\\d{2})|\\d{2})[6-9]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/br.svg",
+      "countryCode": "+55"
+    },
+    {
+      "countryId": 21,
+      "countryNamePlusCountryCode": "Brunei  (+673)",
+      "mobileNumberRegexValidator": "^[2|7|8]\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/bn.svg",
+      "countryCode": "+673"
+    },
+    {
+      "countryId": 22,
+      "countryNamePlusCountryCode": "Bulgaria  (+359)",
+      "mobileNumberRegexValidator": "^8[789]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/bg.svg",
+      "countryCode": "+359"
+    },
+    {
+      "countryId": 23,
+      "countryNamePlusCountryCode": "Burkina Faso  (+226)",
+      "mobileNumberRegexValidator": "^[67]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/bf.svg",
+      "countryCode": "+226"
+    },
+    {
+      "countryId": 24,
+      "countryNamePlusCountryCode": "Burundi  (+257)",
+      "mobileNumberRegexValidator": "^(61|62|65|67|68|69|71|72|75|76|77|78|79)\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/bi.svg",
+      "countryCode": "+257"
+    },
+    {
+      "countryId": 25,
+      "countryNamePlusCountryCode": "Cambodia  (+855)",
+      "mobileNumberRegexValidator": "^(1[^9]|3[18]|6[^2-5]|7[016-8]|8[^2]|9[^4])\\d{6,7}$",
+      "countryFlagImage": "D:/flags/4x3/kh.svg",
+      "countryCode": "+855"
+    },
+    {
+      "countryId": 26,
+      "countryNamePlusCountryCode": "Cameroon  (+237)",
+      "mobileNumberRegexValidator": "^6[0-9]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/cm.svg",
+      "countryCode": "+237"
+    },
+    {
+      "countryId": 27,
+      "countryNamePlusCountryCode": "Canada  (+1)",
+      "mobileNumberRegexValidator": "^((\\+1|1)?( |-)?)?(\\([2-9][0-9]{2}\\)|[2-9][0-9]{2})( |-)?([2-9][0-9]{2}( |-)?[0-9]{4})$",
+      "countryFlagImage": "D:/flags/4x3/ca.svg",
+      "countryCode": "+1"
+    },
+    {
+      "countryId": 28,
+      "countryNamePlusCountryCode": "Cape Verde  (+238)",
+      "mobileNumberRegexValidator": "(^(59|99|91|99)\\d{5}$)|(99[1-7]\\d{4}$)",
+      "countryFlagImage": "D:/flags/4x3/cv.svg",
+      "countryCode": "+238"
+    },
+    {
+      "countryId": 29,
+      "countryNamePlusCountryCode": "Central African Republic  (+236)",
+      "mobileNumberRegexValidator": "^(70|72|74|75|77)\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/cf.svg",
+      "countryCode": "+236"
+    },
+    {
+      "countryId": 30,
+      "countryNamePlusCountryCode": "Chad  (+235)",
+      "mobileNumberRegexValidator": "(^6\\d{7}$)|(^(620|630|631|632|633|634|635|660|661|662|663|664|665|666|667|668|669|777|950|951|952|953|954|990|991|992|993|994|995|996|997|998|999)\\d{5}$)|(^77\\d{6}$)|(^(6679|6620|9980)\\d{4}$)",
+      "countryFlagImage": "D:/flags/4x3/td.svg",
+      "countryCode": "+235"
+    },
+    {
+      "countryId": 31,
+      "countryNamePlusCountryCode": "Chile  (+56)",
+      "mobileNumberRegexValidator": "^(\\+?56){0",
+      "countryFlagImage": "D:/flags/4x3/cl.svg",
+      "countryCode": "+56"
+    },
+    {
+      "countryId": 32,
+      "countryNamePlusCountryCode": "China  (+86)",
+      "mobileNumberRegexValidator": "^(1[3-9]|9[28])\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/cn.svg",
+      "countryCode": "+86"
+    },
+    {
+      "countryId": 33,
+      "countryNamePlusCountryCode": "Colombia  (+57)",
+      "mobileNumberRegexValidator": "^(\\+?57)?3(0(0|1|2|4|5)|1\\d|2[0-4]|5(0|1))\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/co.svg",
+      "countryCode": "+57"
+    },
+    {
+      "countryId": 34,
+      "countryNamePlusCountryCode": "Costa Rica  (+506)",
+      "mobileNumberRegexValidator": "^(\\+506)?[2-8]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/cr.svg",
+      "countryCode": "+506"
+    },
+    {
+      "countryId": 35,
+      "countryNamePlusCountryCode": "Croatia  (+385)",
+      "mobileNumberRegexValidator": "(^(91|92|95|98|99)\\d{6}$)|(^(976|977|979)\\d{5}$)",
+      "countryFlagImage": "D:/flags/4x3/hr.svg",
+      "countryCode": "+385"
+    },
+    {
+      "countryId": 36,
+      "countryNamePlusCountryCode": "Cuba  (+53)",
+      "mobileNumberRegexValidator": "^5\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/cu.svg",
+      "countryCode": "+53"
+    },
+    {
+      "countryId": 37,
+      "countryNamePlusCountryCode": "Cyprus  (+357)",
+      "mobileNumberRegexValidator": "(2[234567]{1})[0-9]{6}|(9[97654]{1})[0-9]{6}|942[0-9]{5}$",
+      "countryFlagImage": "D:/flags/4x3/cy.svg",
+      "countryCode": "+357"
+    },
+    {
+      "countryId": 38,
+      "countryNamePlusCountryCode": "Czech Republic  (+420)",
+      "mobileNumberRegexValidator": "[1-9][0-9]{2} ?[0-9]{3} ?[0-9]{3}$",
+      "countryFlagImage": "D:/flags/4x3/cz.svg",
+      "countryCode": "+420"
+    },
+    {
+      "countryId": 39,
+      "countryNamePlusCountryCode": "Democratic Republic of the Congo  (+243)",
+      "mobileNumberRegexValidator": "(8|9)\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/cd.svg",
+      "countryCode": "+243"
+    },
+    {
+      "countryId": 40,
+      "countryNamePlusCountryCode": "Denmark  (+45)",
+      "mobileNumberRegexValidator": "^(?:(?:00|\\+)?45)?(?=2|3[01]|4[012]|4911|5[0-3]|6[01]|[78]1|9[123])\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/dk.svg",
+      "countryCode": "+45"
+    },
+    {
+      "countryId": 41,
+      "countryNamePlusCountryCode": "Djibouti  (+253)",
+      "mobileNumberRegexValidator": "^77[678]\\d{5}$",
+      "countryFlagImage": "D:/flags/4x3/dj.svg",
+      "countryCode": "+253"
+    },
+    {
+      "countryId": 42,
+      "countryNamePlusCountryCode": "Dominica  (+1-767)",
+      "mobileNumberRegexValidator": "^(767315|767316|767317|767420|767421|767611|767612|767613|767614|767615|767616|767617|767225|767235|767245|767265|767275|767276|767277|767285|767295)\\d{4}$",
+      "countryFlagImage": "D:/flags/4x3/dm.svg",
+      "countryCode": "+1-767"
+    },
+    {
+      "countryId": 43,
+      "countryNamePlusCountryCode": "East Timor  (+670)",
+      "mobileNumberRegexValidator": "^7[3-8]\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/tl.svg",
+      "countryCode": "+670"
+    },
+    {
+      "countryId": 44,
+      "countryNamePlusCountryCode": "Ecuador  (+593)",
+      "mobileNumberRegexValidator": "^([2-7]|9[2-9])\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/ec.svg",
+      "countryCode": "+593"
+    },
+    {
+      "countryId": 45,
+      "countryNamePlusCountryCode": "Egypt  (+20)",
+      "mobileNumberRegexValidator": "^01[0125][0-9]{8}$",
+      "countryFlagImage": "D:/flags/4x3/eg.svg",
+      "countryCode": "+20"
+    },
+    {
+      "countryId": 46,
+      "countryNamePlusCountryCode": "El Salvador  (+503)",
+      "mobileNumberRegexValidator": "^[67]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/sv.svg",
+      "countryCode": "+503"
+    },
+    {
+      "countryId": 47,
+      "countryNamePlusCountryCode": "Equatorial Guinea  (+240)",
+      "mobileNumberRegexValidator": "(^(55)\\d{7}$)|(^(222)\\d{6}$)|(^(2222[0-9]\\d{4}$))|(^(2225[0-9]\\d{4}$))|(^(2226[0-9]\\d{4}$))",
+      "countryFlagImage": "D:/flags/4x3/gq.svg",
+      "countryCode": "+240"
+    },
+    {
+      "countryId": 48,
+      "countryNamePlusCountryCode": "Eritrea  (+291)",
+      "mobileNumberRegexValidator": "(^(171|172|173)\\d{4}$)|(^(7)\\d{6}$)",
+      "countryFlagImage": "D:/flags/4x3/er.svg",
+      "countryCode": "+291"
+    },
+    {
+      "countryId": 49,
+      "countryNamePlusCountryCode": "Estonia  (+372)",
+      "mobileNumberRegexValidator": "^(5|8[1-4])([0-9]){6,7}$",
+      "countryFlagImage": "D:/flags/4x3/ee.svg",
+      "countryCode": "+372"
+    },
+    {
+      "countryId": 50,
+      "countryNamePlusCountryCode": "Ethiopia  (+251)",
+      "mobileNumberRegexValidator": "^9[12]\\d{5}$",
+      "countryFlagImage": "D:/flags/4x3/et.svg",
+      "countryCode": "+251"
+    },
+    {
+      "countryId": 51,
+      "countryNamePlusCountryCode": "Falkland Islands  (+500)",
+      "mobileNumberRegexValidator": "^(5|6)\\d{4}$",
+      "countryFlagImage": "D:/flags/4x3/fk.svg",
+      "countryCode": "+500"
+    },
+    {
+      "countryId": 52,
+      "countryNamePlusCountryCode": "Faroe Islands  (+298)",
+      "mobileNumberRegexValidator": "^\\d{2}\\d{2}\\d{2}$",
+      "countryFlagImage": "D:/flags/4x3/fo.svg",
+      "countryCode": "+298"
+    },
+    {
+      "countryId": 53,
+      "countryNamePlusCountryCode": "Finland  (+358)",
+      "mobileNumberRegexValidator": "^(4[0-6]|50)(\\d){4",
+      "countryFlagImage": "D:/flags/4x3/fi.svg",
+      "countryCode": "+358"
+    },
+    {
+      "countryId": 54,
+      "countryNamePlusCountryCode": "France  (+33)",
+      "mobileNumberRegexValidator": "^[67]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/fr.svg",
+      "countryCode": "+33"
+    },
+    {
+      "countryId": 55,
+      "countryNamePlusCountryCode": "Gabon  (+241)",
+      "mobileNumberRegexValidator": "^[2-7]\\d{5}$",
+      "countryFlagImage": "D:/flags/4x3/ga.svg",
+      "countryCode": "+241"
+    },
+    {
+      "countryId": 56,
+      "countryNamePlusCountryCode": "Gambia  (+220)",
+      "mobileNumberRegexValidator": "(^2[0-6]\\d{5}$)|(^[679]\\d{6}$)|(^30\\d{6}$)",
+      "countryFlagImage": "D:/flags/4x3/gm.svg",
+      "countryCode": "+220"
+    },
+    {
+      "countryId": 57,
+      "countryNamePlusCountryCode": "Georgia  (+995)",
+      "mobileNumberRegexValidator": "^(79\\d{7}|5\\d{8})$",
+      "countryFlagImage": "D:/flags/4x3/ge.svg",
+      "countryCode": "+995"
+    },
+    {
+      "countryId": 58,
+      "countryNamePlusCountryCode": "Germany  (+49)",
+      "mobileNumberRegexValidator": "(0?1[5-7][0-9]{1",
+      "countryFlagImage": "D:/flags/4x3/de.svg",
+      "countryCode": "+49"
+    },
+    {
+      "countryId": 59,
+      "countryNamePlusCountryCode": "Ghana  (+233)",
+      "mobileNumberRegexValidator": "^0(20|50|24|54|27|57|26|56|23|28|55|59)\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/gh.svg",
+      "countryCode": "+233"
+    },
+    {
+      "countryId": 60,
+      "countryNamePlusCountryCode": "Greece  (+30)",
+      "mobileNumberRegexValidator": "^(2\\d|69)\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/gr.svg",
+      "countryCode": "+30"
+    },
+    {
+      "countryId": 61,
+      "countryNamePlusCountryCode": "Greenland  (+299)",
+      "mobileNumberRegexValidator": "(^2[2-9]\\d{4}$)|(^4[2-9]\\d{4}$)|(^5[2-9]\\d{4}$)",
+      "countryFlagImage": "D:/flags/4x3/gl.svg",
+      "countryCode": "+299"
+    },
+    {
+      "countryId": 62,
+      "countryNamePlusCountryCode": "Guinea-Bissau  (+245)",
+      "mobileNumberRegexValidator": "(^[765]\\d{6}$)|((^(90|91|92)\\d{5}$))",
+      "countryFlagImage": "D:/flags/4x3/gw.svg",
+      "countryCode": "+245"
+    },
+    {
+      "countryId": 63,
+      "countryNamePlusCountryCode": "Guyana  (+592)",
+      "mobileNumberRegexValidator": "^6\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/gy.svg",
+      "countryCode": "+592"
+    },
+    {
+      "countryId": 64,
+      "countryNamePlusCountryCode": "Haiti  (+509)",
+      "mobileNumberRegexValidator": "(^(34|36|37|38|39|35|32|33|42|43)\\d{5}$)|(4\\d{7}$)",
+      "countryFlagImage": "D:/flags/4x3/ht.svg",
+      "countryCode": "+509"
+    },
+    {
+      "countryId": 65,
+      "countryNamePlusCountryCode": "Honduras  (+504)",
+      "mobileNumberRegexValidator": "^[9|8]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/hn.svg",
+      "countryCode": "+504"
+    },
+    {
+      "countryId": 66,
+      "countryNamePlusCountryCode": "Hong Kong  (+852)",
+      "mobileNumberRegexValidator": "^[456789]\\d{3}\\d{4}$",
+      "countryFlagImage": "D:/flags/4x3/hk.svg",
+      "countryCode": "+852"
+    },
+    {
+      "countryId": 67,
+      "countryNamePlusCountryCode": "Hungary  (+36)",
+      "mobileNumberRegexValidator": "([2|3|5|7]0|31)\\d{5}$",
+      "countryFlagImage": "D:/flags/4x3/hu.svg",
+      "countryCode": "+36"
+    },
+    {
+      "countryId": 68,
+      "countryNamePlusCountryCode": "Iceland  (+354)",
+      "mobileNumberRegexValidator": "[6|7|8][0-9]\\d{5}$",
+      "countryFlagImage": "D:/flags/4x3/is.svg",
+      "countryCode": "+354"
+    },
+    {
+      "countryId": 69,
+      "countryNamePlusCountryCode": "India  (+91)",
+      "mobileNumberRegexValidator": "^[6-9]\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/in.svg",
+      "countryCode": "+91"
+    },
+    {
+      "countryId": 70,
+      "countryNamePlusCountryCode": "Indonesia  (+62)",
+      "mobileNumberRegexValidator": "([2-9]\\d{6}$|[2-9]\\d{10}$)",
+      "countryFlagImage": "D:/flags/4x3/id.svg",
+      "countryCode": "+62"
+    },
+    {
+      "countryId": 71,
+      "countryNamePlusCountryCode": "Iran  (+98)",
+      "mobileNumberRegexValidator": "^(\\+98|0)?9\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/ir.svg",
+      "countryCode": "+98"
+    },
+    {
+      "countryId": 72,
+      "countryNamePlusCountryCode": "Iraq  (+964)",
+      "mobileNumberRegexValidator": "^(((?:\\+|00)964)|(0)*)7\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/iq.svg",
+      "countryCode": "+964"
+    },
+    {
+      "countryId": 73,
+      "countryNamePlusCountryCode": "Ireland  (+353)",
+      "mobileNumberRegexValidator": "^0(83|85|86|87|88|89)\\s?\\d{1}\\s?\\d{1}\\s?\\d{1}\\s?\\d{1}\\s?\\d{1}\\s?\\d{1}\\s?\\d{1}$",
+      "countryFlagImage": "D:/flags/4x3/ie.svg",
+      "countryCode": "+353"
+    },
+    {
+      "countryId": 74,
+      "countryNamePlusCountryCode": "Israel  (+972)",
+      "mobileNumberRegexValidator": "^[0][5][0|2|3|4|5|9]{1}[-]{0",
+      "countryFlagImage": "D:/flags/4x3/il.svg",
+      "countryCode": "+972"
+    },
+    {
+      "countryId": 75,
+      "countryNamePlusCountryCode": "Italy  (+39)",
+      "mobileNumberRegexValidator": "^3\\d{2}\\d{6,7}$",
+      "countryFlagImage": "D:/flags/4x3/it.svg",
+      "countryCode": "+39"
+    },
+    {
+      "countryId": 76,
+      "countryNamePlusCountryCode": "Ivory Coast  (+225)",
+      "mobileNumberRegexValidator": "((0[1-9])|(4[0-2])|(4[4-9])|(5[4-9])|(6[0-1])|6[5-7]|(77)|(75))[0-9]{6}",
+      "countryFlagImage": "D:/flags/4x3/ci.svg",
+      "countryCode": "+225"
+    },
+    {
+      "countryId": 77,
+      "countryNamePlusCountryCode": "Japan  (+81)",
+      "mobileNumberRegexValidator": "^0[789]0\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/jp.svg",
+      "countryCode": "+81"
+    },
+    {
+      "countryId": 78,
+      "countryNamePlusCountryCode": "Jordan  (+962)",
+      "mobileNumberRegexValidator": "7[789]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/jo.svg",
+      "countryCode": "+962"
+    },
+    {
+      "countryId": 79,
+      "countryNamePlusCountryCode": "Kazakhstan  (+7)",
+      "mobileNumberRegexValidator": "^7\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/kz.svg",
+      "countryCode": "+7"
+    },
+    {
+      "countryId": 80,
+      "countryNamePlusCountryCode": "Kenya  (+254)",
+      "mobileNumberRegexValidator": "[7|1]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/ke.svg",
+      "countryCode": "+254"
+    },
+    {
+      "countryId": 81,
+      "countryNamePlusCountryCode": "Kiribati  (+686)",
+      "mobileNumberRegexValidator": "((5|6|7|9)\\d{5",
+      "countryFlagImage": "D:/flags/4x3/ki.svg",
+      "countryCode": "+686"
+    },
+    {
+      "countryId": 82,
+      "countryNamePlusCountryCode": "Kosovo  (+383)",
+      "mobileNumberRegexValidator": "4[3-9]\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/xk.svg",
+      "countryCode": "+383"
+    },
+    {
+      "countryId": 83,
+      "countryNamePlusCountryCode": "Kuwait  (+965)",
+      "mobileNumberRegexValidator": "^([569]\\d{7})$",
+      "countryFlagImage": "D:/flags/4x3/kw.svg",
+      "countryCode": "+965"
+    },
+    {
+      "countryId": 84,
+      "countryNamePlusCountryCode": "Kyrgyzstan  (+996)",
+      "mobileNumberRegexValidator": "(^(50|77|54|58|51|55|57|70|56)\\d{7}$)",
+      "countryFlagImage": "D:/flags/4x3/kg.svg",
+      "countryCode": "+996"
+    },
+    {
+      "countryId": 85,
+      "countryNamePlusCountryCode": "Laos  (+856)",
+      "mobileNumberRegexValidator": "(^(2077|2022|2023|2054|2055|2056|2098|)\\d{6}$)|(^(20776|20776|20776|20776|20776|20776|20776|20776|20776)\\d{5}$)",
+      "countryFlagImage": "D:/flags/4x3/la.svg",
+      "countryCode": "+856"
+    },
+    {
+      "countryId": 86,
+      "countryNamePlusCountryCode": "Latvia  (+371)",
+      "mobileNumberRegexValidator": "^(\\+?371)?2\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/lv.svg",
+      "countryCode": "+371"
+    },
+    {
+      "countryId": 87,
+      "countryNamePlusCountryCode": "Lebanon  (+961)",
+      "mobileNumberRegexValidator": "((3|81)\\d{6}|7\\d{7})$",
+      "countryFlagImage": "D:/flags/4x3/lb.svg",
+      "countryCode": "+961"
+    },
+    {
+      "countryId": 88,
+      "countryNamePlusCountryCode": "Lesotho  (+266)",
+      "mobileNumberRegexValidator": "^(22|28|57|58|59|27|52)\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/ls.svg",
+      "countryCode": "+266"
+    },
+    {
+      "countryId": 89,
+      "countryNamePlusCountryCode": "Liberia  (+231)",
+      "mobileNumberRegexValidator": "(^(7\\d{7}$))|(^(5\\d{6}$))|(^(46|47|64|65|66|67|68|69)\\d{5}$)",
+      "countryFlagImage": "D:/flags/4x3/lr.svg",
+      "countryCode": "+231"
+    },
+    {
+      "countryId": 90,
+      "countryNamePlusCountryCode": "Libya  (+218)",
+      "mobileNumberRegexValidator": "(9[1-6]\\d{7}|[1-8]\\d{7,9})$",
+      "countryFlagImage": "D:/flags/4x3/ly.svg",
+      "countryCode": "+218"
+    },
+    {
+      "countryId": 91,
+      "countryNamePlusCountryCode": "Lithuania  (+370)",
+      "mobileNumberRegexValidator": "^(\\+?370|8)?\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/lt.svg",
+      "countryCode": "+370"
+    },
+    {
+      "countryId": 92,
+      "countryNamePlusCountryCode": "Luxembourg  (+352)",
+      "mobileNumberRegexValidator": "6[0-9]1\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/lu.svg",
+      "countryCode": "+352"
+    },
+    {
+      "countryId": 93,
+      "countryNamePlusCountryCode": "Macau  (+853)",
+      "mobileNumberRegexValidator": "^[6]([8|6])\\d{5}$",
+      "countryFlagImage": "D:/flags/4x3/mo.svg",
+      "countryCode": "+853"
+    },
+    {
+      "countryId": 94,
+      "countryNamePlusCountryCode": "Macedonia  (+389)",
+      "mobileNumberRegexValidator": "^((00)?\\+?[389]{3})?[\\/\\-\\s*\\.]?(((\\(0\\))|0)?\\s*7\\d{1})[\\/\\-\\s*\\.\\",
+      "countryFlagImage": "D:/flags/4x3/mk.svg",
+      "countryCode": "+389"
+    },
+    {
+      "countryId": 95,
+      "countryNamePlusCountryCode": "Madagascar  (+261)",
+      "mobileNumberRegexValidator": "^((2|3)\\d)?\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/mg.svg",
+      "countryCode": "+261"
+    },
+    {
+      "countryId": 96,
+      "countryNamePlusCountryCode": "Malawi  (+265)",
+      "mobileNumberRegexValidator": "(^(99|77|88)\\d{7}$)|(^(5|9)\\d{6}$)|(^(88)\\d{5}$)",
+      "countryFlagImage": "D:/flags/4x3/mw.svg",
+      "countryCode": "+265"
+    },
+    {
+      "countryId": 97,
+      "countryNamePlusCountryCode": "Malaysia  (+60)",
+      "mobileNumberRegexValidator": "^(1([0145]{1}\\d{7,8})$)|([236789]\\d{7})$",
+      "countryFlagImage": "D:/flags/4x3/my.svg",
+      "countryCode": "+60"
+    },
+    {
+      "countryId": 98,
+      "countryNamePlusCountryCode": "Maldives  (+960)",
+      "mobileNumberRegexValidator": "^(7[2-9]|91|9[3-9])\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/mv.svg",
+      "countryCode": "+960"
+    },
+    {
+      "countryId": 99,
+      "countryNamePlusCountryCode": "Malta  (+356)",
+      "mobileNumberRegexValidator": "(\\((0{2}|\\+)(\\d{3})\\)|((0{2})|\\+)\\d{3}|)\\s?((7|9)9|77)(\\d{6}|\\s\\d{3}\\s\\d{3}|\\d{2}\\s\\d{4})",
+      "countryFlagImage": "D:/flags/4x3/mt.svg",
+      "countryCode": "+356"
+    },
+    {
+      "countryId": 100,
+      "countryNamePlusCountryCode": "Marshall Islands  (+692)",
+      "mobileNumberRegexValidator": "^(235|329|455|456|525|565|625)\\d{4}$",
+      "countryFlagImage": "D:/flags/4x3/mh.svg",
+      "countryCode": "+692"
+    },
+    {
+      "countryId": 101,
+      "countryNamePlusCountryCode": "Mauritania  (+222)",
+      "mobileNumberRegexValidator": "(^(2|3|4)\\d{7}$)|(^(22|33)\\d{6}$)|(^(270|361|361|363|366|371|372|373|460|464|465|467|468|469|474|475|476|477|478|479)\\d{5}$)",
+      "countryFlagImage": "D:/flags/4x3/mr.svg",
+      "countryCode": "+222"
+    },
+    {
+      "countryId": 102,
+      "countryNamePlusCountryCode": "Mauritius  (+230)",
+      "mobileNumberRegexValidator": "^\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/mu.svg",
+      "countryCode": "+230"
+    },
+    {
+      "countryId": 103,
+      "countryNamePlusCountryCode": "Mayotte  (+262)",
+      "mobileNumberRegexValidator": "^(63930|63950|63970|63990|63903|63904|63905|63906|63907|63919|63926|63939|63994|63995|63996|63997|63900|63960|63961|63909|63910|63911|63920|63921|63922|63923|63924|63925|63927|63928|63929|63940|63965|63966|63967|63968|63969)\\d{4}$",
+      "countryFlagImage": "D:/flags/4x3/yt.svg",
+      "countryCode": "+262"
+    },
+    {
+      "countryId": 104,
+      "countryNamePlusCountryCode": "Mexico  (+52)",
+      "mobileNumberRegexValidator": "^(1|01)?\\d{10,11}$",
+      "countryFlagImage": "D:/flags/4x3/mx.svg",
+      "countryCode": "+52"
+    },
+    {
+      "countryId": 105,
+      "countryNamePlusCountryCode": "Micronesia  (+691)",
+      "mobileNumberRegexValidator": "^(920|930|950|970)\\d{4}$",
+      "countryFlagImage": "D:/flags/4x3/fm.svg",
+      "countryCode": "+691"
+    },
+    {
+      "countryId": 106,
+      "countryNamePlusCountryCode": "Moldova  (+373)",
+      "mobileNumberRegexValidator": "[67][0-9]{7}$",
+      "countryFlagImage": "D:/flags/4x3/md.svg",
+      "countryCode": "+373"
+    },
+    {
+      "countryId": 107,
+      "countryNamePlusCountryCode": "Mongolia  (+976)",
+      "mobileNumberRegexValidator": "^(77|81|88|91|94|95|96|99)\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/mn.svg",
+      "countryCode": "+976"
+    },
+    {
+      "countryId": 108,
+      "countryNamePlusCountryCode": "Montenegro  (+382)",
+      "mobileNumberRegexValidator": "^(60|63|66|67|68|69)\\d{10}$",
+      "countryFlagImage": "D:/flags/4x3/me.svg",
+      "countryCode": "+382"
+    },
+    {
+      "countryId": 109,
+      "countryNamePlusCountryCode": "Morocco  (+212)",
+      "mobileNumberRegexValidator": "^[5-7]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/ma.svg",
+      "countryCode": "+212"
+    },
+    {
+      "countryId": 110,
+      "countryNamePlusCountryCode": "Mozambique  (+258)",
+      "mobileNumberRegexValidator": "^8[234567]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/mz.svg",
+      "countryCode": "+258"
+    },
+    {
+      "countryId": 111,
+      "countryNamePlusCountryCode": "Myanmar  (+95)",
+      "mobileNumberRegexValidator": "^(2[5-7]|3[1-2]|4[0-5]|6[6-9]|7[5-9]|9[6-9])[0-9]{7}$",
+      "countryFlagImage": "D:/flags/4x3/mm.svg",
+      "countryCode": "+95"
+    },
+    {
+      "countryId": 112,
+      "countryNamePlusCountryCode": "Namibia  (+264)",
+      "mobileNumberRegexValidator": "^(6|8)\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/na.svg",
+      "countryCode": "+264"
+    },
+    {
+      "countryId": 113,
+      "countryNamePlusCountryCode": "Nauru  (+674)",
+      "mobileNumberRegexValidator": "^(554|555|556|557|558|559)\\d{4}$",
+      "countryFlagImage": "D:/flags/4x3/nr.svg",
+      "countryCode": "+674"
+    },
+    {
+      "countryId": 114,
+      "countryNamePlusCountryCode": "Nepal  (+977)",
+      "mobileNumberRegexValidator": "^9[78]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/np.svg",
+      "countryCode": "+977"
+    },
+    {
+      "countryId": 115,
+      "countryNamePlusCountryCode": "Netherlands  (+31)",
+      "mobileNumberRegexValidator": "^6{1}\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/nl.svg",
+      "countryCode": "+31"
+    },
+    {
+      "countryId": 116,
+      "countryNamePlusCountryCode": "New Zealand  (+64)",
+      "mobileNumberRegexValidator": "^[28]\\d{7,9}$",
+      "countryFlagImage": "D:/flags/4x3/nz.svg",
+      "countryCode": "+64"
+    },
+    {
+      "countryId": 117,
+      "countryNamePlusCountryCode": "Nicaragua  (+505)",
+      "mobileNumberRegexValidator": "^\\d{7,8}$",
+      "countryFlagImage": "D:/flags/4x3/ni.svg",
+      "countryCode": "+505"
+    },
+    {
+      "countryId": 118,
+      "countryNamePlusCountryCode": "Nigeria  (+234)",
+      "mobileNumberRegexValidator": "^[789]\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/ng.svg",
+      "countryCode": "+234"
+    },
+    {
+      "countryId": 119,
+      "countryNamePlusCountryCode": "Norway  (+47)",
+      "mobileNumberRegexValidator": "^[49]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/no.svg",
+      "countryCode": "+47"
+    },
+    {
+      "countryId": 120,
+      "countryNamePlusCountryCode": "Oman  (+968)",
+      "mobileNumberRegexValidator": "^(9[1-9])\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/om.svg",
+      "countryCode": "+968"
+    },
+    {
+      "countryId": 121,
+      "countryNamePlusCountryCode": "Pakistan  (+92)",
+      "mobileNumberRegexValidator": "^3[0-6]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/pk.svg",
+      "countryCode": "+92"
+    },
+    {
+      "countryId": 122,
+      "countryNamePlusCountryCode": "Palestine  (+970)",
+      "mobileNumberRegexValidator": "^05(9[987542]|6[982])\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/ps.svg",
+      "countryCode": "+970"
+    },
+    {
+      "countryId": 123,
+      "countryNamePlusCountryCode": "Panama  (+507)",
+      "mobileNumberRegexValidator": "^\\d{7,8}$",
+      "countryFlagImage": "D:/flags/4x3/pa.svg",
+      "countryCode": "+507"
+    },
+    {
+      "countryId": 124,
+      "countryNamePlusCountryCode": "Papua New Guinea  (+675)",
+      "mobileNumberRegexValidator": "^(7\\d|8[18])\\d{6}$",
+      "countryFlagImage": "D:/flags/4x3/pg.svg",
+      "countryCode": "+675"
+    },
+    {
+      "countryId": 125,
+      "countryNamePlusCountryCode": "Paraguay  (+595)",
+      "mobileNumberRegexValidator": "^9[9876]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/py.svg",
+      "countryCode": "+595"
+    },
+    {
+      "countryId": 126,
+      "countryNamePlusCountryCode": "Peru  (+51)",
+      "mobileNumberRegexValidator": "^9\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/pe.svg",
+      "countryCode": "+51"
+    },
+    {
+      "countryId": 127,
+      "countryNamePlusCountryCode": "Philippines  (+63)",
+      "mobileNumberRegexValidator": "^9\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/ph.svg",
+      "countryCode": "+63"
+    },
+    {
+      "countryId": 128,
+      "countryNamePlusCountryCode": "Poland  (+48)",
+      "mobileNumberRegexValidator": "\\d{3}(\\s*|\\-)\\d{3}(\\s*|\\-)\\d{3}$",
+      "countryFlagImage": "D:/flags/4x3/pl.svg",
+      "countryCode": "+48"
+    },
+    {
+      "countryId": 129,
+      "countryNamePlusCountryCode": "Portugal  (+351)",
+      "mobileNumberRegexValidator": "^9[1236]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/pt.svg",
+      "countryCode": "+351"
+    },
+    {
+      "countryId": 130,
+      "countryNamePlusCountryCode": "Qatar  (+974)",
+      "mobileNumberRegexValidator": "^(\\d{8}(\\,\\d{8}){0,2})$",
+      "countryFlagImage": "D:/flags/4x3/qa.svg",
+      "countryCode": "+974"
+    },
+    {
+      "countryId": 131,
+      "countryNamePlusCountryCode": "Reunion  (+262)",
+      "mobileNumberRegexValidator": "^[67]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/re.svg",
+      "countryCode": "+262"
+    },
+    {
+      "countryId": 132,
+      "countryNamePlusCountryCode": "Romania  (+40)",
+      "mobileNumberRegexValidator": "^7\\d{2}\\d{3}\\d{3}$",
+      "countryFlagImage": "D:/flags/4x3/ro.svg",
+      "countryCode": "+40"
+    },
+    {
+      "countryId": 133,
+      "countryNamePlusCountryCode": "Russia  (+7)",
+      "mobileNumberRegexValidator": "^9\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/ru.svg",
+      "countryCode": "+7"
+    },
+    {
+      "countryId": 134,
+      "countryNamePlusCountryCode": "Rwanda  (+250)",
+      "mobileNumberRegexValidator": "^[7]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/rw.svg",
+      "countryCode": "+250"
+    },
+    {
+      "countryId": 135,
+      "countryNamePlusCountryCode": "Saint Barthelemy  (+590)",
+      "mobileNumberRegexValidator": "^[67]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/bl.svg",
+      "countryCode": "+590"
+    },
+    {
+      "countryId": 136,
+      "countryNamePlusCountryCode": "Saint Helena  (+290)",
+      "mobileNumberRegexValidator": "(^(5|6)\\d{4}$)|(^(5|6)\\d{5}$)",
+      "countryFlagImage": "D:/flags/4x3/sh.svg",
+      "countryCode": "+290"
+    },
+    {
+      "countryId": 137,
+      "countryNamePlusCountryCode": "San Marino  (+378)",
+      "mobileNumberRegexValidator": "^6\\d{5,9}$",
+      "countryFlagImage": "D:/flags/4x3/sm.svg",
+      "countryCode": "+378"
+    },
+    {
+      "countryId": 138,
+      "countryNamePlusCountryCode": "Saudi Arabia  (+966)",
+      "mobileNumberRegexValidator": "(5)[0-9]{8}$",
+      "countryFlagImage": "D:/flags/4x3/sa.svg",
+      "countryCode": "+966"
+    },
+    {
+      "countryId": 139,
+      "countryNamePlusCountryCode": "Serbia  (+381)",
+      "mobileNumberRegexValidator": "(\\s|-)?6(([0-6]|[8-9])\\d{8}|(77|78)\\d{7}){1}$",
+      "countryFlagImage": "D:/flags/4x3/rs.svg",
+      "countryCode": "+381"
+    },
+    {
+      "countryId": 140,
+      "countryNamePlusCountryCode": "Seychelles  (+248)",
+      "mobileNumberRegexValidator": "(^(27|28|25|26)\\d{5}$)|(^(98)\\d{4}$)",
+      "countryFlagImage": "D:/flags/4x3/sc.svg",
+      "countryCode": "+248"
+    },
+    {
+      "countryId": 141,
+      "countryNamePlusCountryCode": "Sierra Leone  (+232)",
+      "mobileNumberRegexValidator": "^\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/sl.svg",
+      "countryCode": "+232"
+    },
+    {
+      "countryId": 142,
+      "countryNamePlusCountryCode": "Singapore  (+65)",
+      "mobileNumberRegexValidator": "(6|8|9)\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/sg.svg",
+      "countryCode": "+65"
+    },
+    {
+      "countryId": 143,
+      "countryNamePlusCountryCode": "Slovakia  (+421)",
+      "mobileNumberRegexValidator": "^[1-9][0-9]{2}[0-9]{3}[0-9]{3}$",
+      "countryFlagImage": "D:/flags/4x3/sk.svg",
+      "countryCode": "+421"
+    },
+    {
+      "countryId": 144,
+      "countryNamePlusCountryCode": "Slovenia  (+386)",
+      "mobileNumberRegexValidator": "^(([0-9]{3})[ \\-\\/]?([0-9]{3})[ \\-\\/]?([0-9]{3}))|([0-9]{9})|([\\+]?([0-9]{3})[ \\-\\/]?([0-9]{2})[ \\-\\/]?([0-9]{3})[ \\-\\/]?([0-9]{3}))$",
+      "countryFlagImage": "D:/flags/4x3/si.svg",
+      "countryCode": "+386"
+    },
+    {
+      "countryId": 145,
+      "countryNamePlusCountryCode": "Solomon Islands  (+677)",
+      "mobileNumberRegexValidator": "((^84|85|86|87|88|74|75|76|77|94|95|96|97|98|99)\\d{5}$)|((^48)\\d{3}$)|((^749)\\d{4}$)",
+      "countryFlagImage": "D:/flags/4x3/sb.svg",
+      "countryCode": "+677"
+    },
+    {
+      "countryId": 146,
+      "countryNamePlusCountryCode": "Somalia  (+252)",
+      "mobileNumberRegexValidator": "(^(42|45|46|707|90|91|99|15|61|40|50|60|93|94|95|96|97|98|99|79)\\d{6}$)|(^(63|27|28|29|62)\\d{4}$)|(^25\\d{5}$)",
+      "countryFlagImage": "D:/flags/4x3/so.svg",
+      "countryCode": "+252"
+    },
+    {
+      "countryId": 147,
+      "countryNamePlusCountryCode": "South Africa  (+27)",
+      "mobileNumberRegexValidator": "^\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/za.svg",
+      "countryCode": "+27"
+    },
+    {
+      "countryId": 148,
+      "countryNamePlusCountryCode": "South Korea  (+82)",
+      "mobileNumberRegexValidator": "^0?1([0|1|6|7|8|9]{1})\\d{3,4}\\d{4}$",
+      "countryFlagImage": "D:/flags/4x3/kr.svg",
+      "countryCode": "+82"
+    },
+    {
+      "countryId": 149,
+      "countryNamePlusCountryCode": "South Sudan  (+211)",
+      "mobileNumberRegexValidator": "^(97|92|95|91)\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/ss.svg",
+      "countryCode": "+211"
+    },
+    {
+      "countryId": 150,
+      "countryNamePlusCountryCode": "Spain  (+34)",
+      "mobileNumberRegexValidator": "[67][0-9]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/es.svg",
+      "countryCode": "+34"
+    },
+    {
+      "countryId": 151,
+      "countryNamePlusCountryCode": "Sri Lanka  (+94)",
+      "mobileNumberRegexValidator": "/^[0]{1}[7]{1}[01245678]{1}[0-9]{7}$",
+      "countryFlagImage": "D:/flags/4x3/lk.svg",
+      "countryCode": "+94"
+    },
+    {
+      "countryId": 152,
+      "countryNamePlusCountryCode": "Sudan  (+249)",
+      "mobileNumberRegexValidator": "(^(91|92|96|99|95)\\d{7}$)|(^(992|912)\\d{6}$)|(^9\\d{8}$)",
+      "countryFlagImage": "D:/flags/4x3/sd.svg",
+      "countryCode": "+249"
+    },
+    {
+      "countryId": 153,
+      "countryNamePlusCountryCode": "Suriname  (+597)",
+      "mobileNumberRegexValidator": "(^(71|72|75|81|82|83|84|85|86|87|88|89)\\d{5}$)|(^(770|771|772|773|774|730|731|732|733|734)\\d{4}$)",
+      "countryFlagImage": "D:/flags/4x3/sr.svg",
+      "countryCode": "+597"
+    },
+    {
+      "countryId": 154,
+      "countryNamePlusCountryCode": "Swaziland  (+268)",
+      "mobileNumberRegexValidator": "(^(76|78|77)\\d{6}$)|(^(2400)\\d{4}$)",
+      "countryFlagImage": "D:/flags/4x3/sz.svg",
+      "countryCode": "+268"
+    },
+    {
+      "countryId": 155,
+      "countryNamePlusCountryCode": "Sweden  (+46)",
+      "mobileNumberRegexValidator": "07\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/se.svg",
+      "countryCode": "+46"
+    },
+    {
+      "countryId": 156,
+      "countryNamePlusCountryCode": "Switzerland  (+41)",
+      "mobileNumberRegexValidator": "^(0)([1-9])\\d{1,9}$",
+      "countryFlagImage": "D:/flags/4x3/ch.svg",
+      "countryCode": "+41"
+    },
+    {
+      "countryId": 157,
+      "countryNamePlusCountryCode": "Syria  (+963)",
+      "mobileNumberRegexValidator": "^9\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/sy.svg",
+      "countryCode": "+963"
+    },
+    {
+      "countryId": 158,
+      "countryNamePlusCountryCode": "Taiwan  (+886)",
+      "mobileNumberRegexValidator": "^9\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/tw.svg",
+      "countryCode": "+886"
+    },
+    {
+      "countryId": 159,
+      "countryNamePlusCountryCode": "Tajikistan  (+992)",
+      "mobileNumberRegexValidator": "^[5][5]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/tj.svg",
+      "countryCode": "+992"
+    },
+    {
+      "countryId": 160,
+      "countryNamePlusCountryCode": "Tanzania  (+255)",
+      "mobileNumberRegexValidator": "^[67]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/tz.svg",
+      "countryCode": "+255"
+    },
+    {
+      "countryId": 161,
+      "countryNamePlusCountryCode": "Thailand  (+66)",
+      "mobileNumberRegexValidator": "^0\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/th.svg",
+      "countryCode": "+66"
+    },
+    {
+      "countryId": 162,
+      "countryNamePlusCountryCode": "Togo  (+228)",
+      "mobileNumberRegexValidator": "(^(97|98|99|90|91|92)\\d{6}$)",
+      "countryFlagImage": "D:/flags/4x3/tg.svg",
+      "countryCode": "+228"
+    },
+    {
+      "countryId": 163,
+      "countryNamePlusCountryCode": "Tokelau  (+690)",
+      "mobileNumberRegexValidator": "(^([5-9])\\d{3}$)",
+      "countryFlagImage": "D:/flags/4x3/tk.svg",
+      "countryCode": "+690"
+    },
+    {
+      "countryId": 164,
+      "countryNamePlusCountryCode": "Tonga  (+676)",
+      "mobileNumberRegexValidator": "(^(87|88|89|15|16|17|18|19)\\d{5}$)",
+      "countryFlagImage": "D:/flags/4x3/to.svg",
+      "countryCode": "+676"
+    },
+    {
+      "countryId": 165,
+      "countryNamePlusCountryCode": "Tunisia  (+216)",
+      "mobileNumberRegexValidator": "[2459]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/tn.svg",
+      "countryCode": "+216"
+    },
+    {
+      "countryId": 166,
+      "countryNamePlusCountryCode": "Turkey  (+90)",
+      "mobileNumberRegexValidator": "/90\\d{10}/",
+      "countryFlagImage": "D:/flags/4x3/tr.svg",
+      "countryCode": "+90"
+    },
+    {
+      "countryId": 167,
+      "countryNamePlusCountryCode": "Turkmenistan  (+993)",
+      "mobileNumberRegexValidator": "\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/tm.svg",
+      "countryCode": "+993"
+    },
+    {
+      "countryId": 168,
+      "countryNamePlusCountryCode": "Tuvalu  (+688)",
+      "mobileNumberRegexValidator": "(^(90)\\d{3}$)|(^9\\d{4}$)",
+      "countryFlagImage": "D:/flags/4x3/tv.svg",
+      "countryCode": "+688"
+    },
+    {
+      "countryId": 169,
+      "countryNamePlusCountryCode": "Uganda  (+256)",
+      "mobileNumberRegexValidator": "[7]\\d{8}$",
+      "countryFlagImage": "D:/flags/4x3/ug.svg",
+      "countryCode": "+256"
+    },
+    {
+      "countryId": 170,
+      "countryNamePlusCountryCode": "Ukraine  (+380)",
+      "mobileNumberRegexValidator": "0\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/ua.svg",
+      "countryCode": "+380"
+    },
+    {
+      "countryId": 171,
+      "countryNamePlusCountryCode": "United Arab Emirates  (+971)",
+      "mobileNumberRegexValidator": "5[024568]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/ae.svg",
+      "countryCode": "+971"
+    },
+    {
+      "countryId": 172,
+      "countryNamePlusCountryCode": "United Kingdom  (+44)",
+      "mobileNumberRegexValidator": "7\\d{9}$",
+      "countryFlagImage": "D:/flags/4x3/gb.svg",
+      "countryCode": "+44"
+    },
+    {
+      "countryId": 173,
+      "countryNamePlusCountryCode": "United States  (+1)",
+      "mobileNumberRegexValidator": "^((\\+1|1)?( |-)?)?(\\([2-9][0-9]{2}\\)|[2-9][0-9]{2})( |-)?([2-9][0-9]{2}( |-)?[0-9]{4})$",
+      "countryFlagImage": "D:/flags/4x3/us.svg",
+      "countryCode": "+1"
+    },
+    {
+      "countryId": 174,
+      "countryNamePlusCountryCode": "Uruguay  (+598)",
+      "mobileNumberRegexValidator": "^(?:(598\\d{3})|\\d{3})[9]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/uy.svg",
+      "countryCode": "+598"
+    },
+    {
+      "countryId": 175,
+      "countryNamePlusCountryCode": "Uzbekistan  (+998)",
+      "mobileNumberRegexValidator": "^(\\+?998)?(6[125-79]|7[1-69]|88|9\\d)\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/uz.svg",
+      "countryCode": "+998"
+    },
+    {
+      "countryId": 176,
+      "countryNamePlusCountryCode": "Vanuatu  (+678)",
+      "mobileNumberRegexValidator": "(^(53|54|55|56|57|59|70|71|73|74|75|76|77)\\d{5}$)",
+      "countryFlagImage": "D:/flags/4x3/vu.svg",
+      "countryCode": "+678"
+    },
+    {
+      "countryId": 177,
+      "countryNamePlusCountryCode": "Venezuela  (+58)",
+      "mobileNumberRegexValidator": "(0416|0426|0412|0414|0424)[0-9]{7}",
+      "countryFlagImage": "D:/flags/4x3/ve.svg",
+      "countryCode": "+58"
+    },
+    {
+      "countryId": 178,
+      "countryNamePlusCountryCode": "Vietnam  (+84)",
+      "mobileNumberRegexValidator": "(84|0[3|5|7|8|9])+([0-9]{8})\b",
+      "countryFlagImage": "D:/flags/4x3/vn.svg",
+      "countryCode": "+84"
+    },
+    {
+      "countryId": 179,
+      "countryNamePlusCountryCode": "Wallis and Futuna  (+681)",
+      "mobileNumberRegexValidator": "^09\\d{5}$",
+      "countryFlagImage": "D:/flags/4x3/wf.svg",
+      "countryCode": "+681"
+    },
+    {
+      "countryId": 180,
+      "countryNamePlusCountryCode": "Western Sahara  (+212)",
+      "mobileNumberRegexValidator": "^0(5288|5289)\\d{5}$",
+      "countryFlagImage": "D:/flags/4x3/eh.svg",
+      "countryCode": "+212"
+    },
+    {
+      "countryId": 181,
+      "countryNamePlusCountryCode": "Yemen  (+967)",
+      "mobileNumberRegexValidator": "/^(((\\+|00)9677|0?7)[0137]\\d{7}|((\\+|00)967|0)[1-7]\\d{6})$/",
+      "countryFlagImage": "D:/flags/4x3/ye.svg",
+      "countryCode": "+967"
+    },
+    {
+      "countryId": 182,
+      "countryNamePlusCountryCode": "Zambia  (+260)",
+      "mobileNumberRegexValidator": "^(\\+?26)?09[567]\\d{7}$",
+      "countryFlagImage": "D:/flags/4x3/zm.svg",
+      "countryCode": "+260"
+    },
+    {
+      "countryId": 183,
+      "countryNamePlusCountryCode": "Zimbabwe  (+263)",
+      "mobileNumberRegexValidator": "^(\\+263)?[0-9]{9}$",
+      "countryFlagImage": "D:/flags/4x3/zw.svg",
+      "countryCode": "+263"
+    }
+  ]
+}
