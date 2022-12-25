@@ -6,10 +6,11 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   styleUrls: ['./likes.component.scss']
 })
 export class LikesComponent implements OnInit {
-  @Input('likesCount') likesCount:number=0;
-  title!:string;
-  @Input('isFavorite') isSelected:boolean=false;
-  @Output() jasmin =new EventEmitter();
+  @Input('likesCount') likesCount: number = 0;
+  title!: string;
+  color!: string;
+  @Input('isFavorite') isSelected: boolean = false;
+  @Output() jasmin = new EventEmitter();
   constructor() { }
 
   // onClick(){
@@ -32,13 +33,16 @@ export class LikesComponent implements OnInit {
   //  }
   // }
 
-  onClick(){
-    this.likesCount += this.isSelected ? -1 :1;
-    this.isSelected =!this.isSelected;
+  onClick() {
+    this.likesCount += this.isSelected ? -1 : 1;
+    this.isSelected = !this.isSelected;
     this.jasmin.emit(this.isSelected);
   }
 
+
+
   ngOnInit(): void {
+    console.log("xx");
   }
 
 }
