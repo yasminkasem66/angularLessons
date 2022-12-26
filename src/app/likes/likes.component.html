@@ -1,32 +1,17 @@
 <div class="m-5">
-    
-    <i  
-    [ngClass]="isSelected ? 'fa-solid fa-heart' : 'fa-solid fa-heart-crack'" 
-    [style.color]="isSelected ? 'red' : 'gray'" 
-    [style.cursor]="isSelected ? 'pointer' : 'arrow'" 
-    (click)="onClick()" 
-    ></i> 
 
-    <hr/>
-    <span
-    class="fa-solid"
-    [class.fa-heart]="!isSelected"
-    [class.fa-heart-crack]="isSelected"
-    [ngStyle]="{'color':isSelected ? 'red' : 'gray',
-    'cursor':isSelected ? 'pointer' : 'arrow'}"
-    (click)="onClick()" 
-    >
+    <i [ngClass]="isSelected ? 'fa-solid fa-heart' : 'fa-solid fa-heart-crack'"
+        [style.color]="isSelected ? 'red' : 'gray'" [style.cursor]="isSelected ? 'pointer' : 'arrow'"
+        (click)="onClick()"></i>
+
+    <hr />
+    <span class="fa-solid" [class.fa-heart]="!isSelected" [class.fa-heart-crack]="isSelected" [ngStyle]="{'color':isSelected ? 'red' : 'gray',
+    'cursor':isSelected ? 'pointer' : 'arrow'}" (click)="onClick()">
     </span>
 
-    <hr/>
-    <span
-    class="fa-solid"
-    [ngClass]="{'fa-heart':!isSelected,
-    'fa-heart-crack':isSelected}"
-    [class.highlight]="isSelected"
-    (click)="onClick()" 
-
-    >
+    <hr />
+    <span class="fa-solid" [ngClass]="{'fa-heart':!isSelected,
+    'fa-heart-crack':isSelected}" [class.highlight]="isSelected" (click)="onClick()">
     </span>
 
 
@@ -34,18 +19,23 @@
     <ng-content select=".body"></ng-content>
 
     <!-- pipe to change upper and lower case of the input -->
-     <p>pipe</p>
+    <p>pipe</p>
     <br>
-    <input type="text" [(ngModel)]="title" id="">
+    <input type="text" [(ngModel)]="title" id="" appRandomCOlor>
     {{title | titleCase}}
     <br>
     <!-- directive to change input to upper or lower case  -->
-    <p>directive</p>
+    <p>directive choose input color</p>
+    <div>
+        <input type="radio" name="color" (click)="color='lightgreen'" id="">lightgreen
+        <input type="radio" name="color" (click)="color='cyan'" id="">cyan
+        <input type="radio" name="color" (click)="color='red'" id="">color
+    </div>
     <br>
-    <input type="text" [appInputformat]="'uppercccase'" >
-   
+    <p [appHighLight]="color">jasmin</p>
+    <input type="text" [appInputformat]="'uppercccase'" [appHighLight]="color" defaultColor="'black'">
+
 
 
 
 </div>
-
