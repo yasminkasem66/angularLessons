@@ -39,3 +39,23 @@
 
 
 </div>
+
+<div>
+    <button class="btn btn-primary" #btn>Button</button>
+
+    <p>withOutAsyn {{promiseData}}</p>
+    <p>withAsynPipe {{promiseDataAsync |async }}</p>
+
+    <p>subwithOutAsyn {{obsData}}</p>
+    <p>subwithAsynPipe {{obsDataAsync |async |json}}</p>
+
+</div>
+
+<hr />
+<div>
+    <img [src]="imgURl | defaultImage :placeHolder:'true'" alt="">
+</div>
+<div>
+    <p>total age is :{{data|sum:'age'}}</p>
+    <p>total age is :{{data|sum:'speed'}}</p>
+</div>

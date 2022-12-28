@@ -19,8 +19,10 @@ import { Ng2TelInputModule } from 'ng2-tel-input';
 import { TestNgxComponent } from './test-ngx/test-ngx.component';
 import { HighLightDirective } from './directives/high-light.directive';
 import { RandomCOlorDirective } from './directives/random-color.directive';
+import { DefaultImagePipe } from './pipes/default-image.pipe';
+import { SumPipe } from './pipes/sum.pipe';
 @NgModule({
-  declarations: [AppComponent, SignupFormComponent, Exercise1Component, NewCourseFOrmComponent, LikesComponent, TitleCasePipe, InputformatDirective, ZippyComponent, FormWorkTestComponent, FormWorkTest2Component, Ng2TelInputComponent, TestNgxComponent, HighLightDirective, RandomCOlorDirective],
+  declarations: [AppComponent, SignupFormComponent, Exercise1Component, NewCourseFOrmComponent, LikesComponent, TitleCasePipe, InputformatDirective, ZippyComponent, FormWorkTestComponent, FormWorkTest2Component, Ng2TelInputComponent, TestNgxComponent, HighLightDirective, RandomCOlorDirective, DefaultImagePipe, SumPipe],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule, BrowserAnimationsModule,Ng2TelInputModule],
   bootstrap: [AppComponent],
 })
