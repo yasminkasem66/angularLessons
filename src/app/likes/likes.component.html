@@ -59,3 +59,11 @@
     <p>total age is :{{data|sum:'age'}}</p>
     <p>total age is :{{data|sum:'speed'}}</p>
 </div>
+
+links
+<a routerLink="" routerLinkActive="active-link"  [routerLinkActiveOptions]="{exact:true}"
+[queryParams]="{auth:true}">like Compnent </a>
+<a routerLink="cource" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}"
+[queryParams]="{auth:true}">add Cource </a>
+<a [routerLink]="['cource',10]" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}"
+[queryParams]="{auth:true}">Dynamic cources  </a>
