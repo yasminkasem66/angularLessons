@@ -2,14 +2,22 @@ import { NewCourseFOrmComponent } from './new-course-form/new-course-form.compon
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LikesComponent } from './likes/likes.component';
+import { ChangepasswordComponent } from './changepassword/changepassword.component';
 
 const routes: Routes = [
   { path: '', component: LikesComponent, pathMatch: 'full' },
-  { path: 'cource', component: NewCourseFOrmComponent }
+  { path: 'course', component: NewCourseFOrmComponent },
+  { path: 'password', component: ChangepasswordComponent },
+  { path: 'likes', component: LikesComponent },
+  {
+    path: 'post',
+    loadChildren: () =>
+      import('./modules/posts/posts.module').then((m) => m.PostsModule),
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

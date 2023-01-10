@@ -1,0 +1,16 @@
+<div class="mb-3">
+    <label for="" class="form-label">Insert Post</label>
+    <input type="text" (keyup.enter)="createPost(post)" #post class="form-control">
+</div>
+
+<ul class="list-group">
+    <li *ngFor="let  post of posts " class="list-group-item d-flex justify-content-between">
+        <span>{{post.title}}</span>
+        <div>
+            <button class="btn btn-primary btn-l" (click)="update(post)">update</button>
+            <button class="btn btn-secondary " (click)="Delete(post)">Delete</button>
+
+        </div>
+
+    </li>
+</ul>

@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+import { ErrorHandler, NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -22,9 +23,39 @@ import { RandomCOlorDirective } from './directives/random-color.directive';
 import { DefaultImagePipe } from './pipes/default-image.pipe';
 import { SumPipe } from './pipes/sum.pipe';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ChangepasswordComponent } from './changepassword/changepassword.component';
+import { AppErrorHandlerService } from './@AppServices/services/app-error-handler.service';
 @NgModule({
-  declarations: [AppComponent, SignupFormComponent, Exercise1Component, NewCourseFOrmComponent, LikesComponent, TitleCasePipe, InputformatDirective, ZippyComponent, FormWorkTestComponent, FormWorkTest2Component, Ng2TelInputComponent, TestNgxComponent, HighLightDirective, RandomCOlorDirective, DefaultImagePipe, SumPipe, NavbarComponent],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule, BrowserAnimationsModule,Ng2TelInputModule],
+  declarations: [
+    AppComponent,
+    SignupFormComponent,
+    Exercise1Component,
+    NewCourseFOrmComponent,
+    LikesComponent,
+    TitleCasePipe,
+    InputformatDirective,
+    ZippyComponent,
+    FormWorkTestComponent,
+    FormWorkTest2Component,
+    Ng2TelInputComponent,
+    TestNgxComponent,
+    HighLightDirective,
+    RandomCOlorDirective,
+    DefaultImagePipe,
+    SumPipe,
+    NavbarComponent,
+    ChangepasswordComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    Ng2TelInputModule,
+    HttpClientModule,
+  ],
+  providers: [{ provide: ErrorHandler, useClass: AppErrorHandlerService }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
