@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Exercise1Component } from './exercise1/exercise1.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
-import { NewCourseFOrmComponent } from './new-course-form/new-course-form.component';
+import { ToDosComponent } from './to-do/to-do.component';
 import { LikesComponent } from './likes/likes.component';
 import { TitleCasePipe } from './@core/pipes/title-case.pipe';
 import { InputformatDirective } from './@core/directives/inputformat.directive';
@@ -26,12 +26,13 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ChangepasswordComponent } from './changepassword/changepassword.component';
 import { AppErrorHandlerService } from './@AppServices/services/app-error-handler.service';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
     SignupFormComponent,
     Exercise1Component,
-    NewCourseFOrmComponent,
+    ToDosComponent,
     LikesComponent,
     TitleCasePipe,
     InputformatDirective,
@@ -47,17 +48,20 @@ import { NotfoundComponent } from './notfound/notfound.component';
     NavbarComponent,
     ChangepasswordComponent,
     NotfoundComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
+    BrowserAnimationsModule, // built on the top of web animation api 
     Ng2TelInputModule,
     HttpClientModule,
   ],
   providers: [{ provide: ErrorHandler, useClass: AppErrorHandlerService }],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
+
+

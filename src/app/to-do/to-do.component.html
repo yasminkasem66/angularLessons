@@ -1,12 +1,11 @@
-<form action="">
-    <input type="text" class="form-control"
-    (keyup.enter)="addTopic(topic)" #topic>
+<h2>To Do</h2>
+
+<form action="" class="mt-4">
+    <input type="text" class="form-control mb-2" (keyup.enter)="addTopic(topic)" #topic>
     <ul class="list-group">
-        <li
-        *ngFor="let topic of getControls()"
-        (click)="removeTopic(topic)"
-         class="list-group-item">
-         {{topic.value}}
+        <li @todoAnimation (@todoAnimation.start)="animationStart($event)" (@todoAnimation.done)="animationDone($event)"
+            *ngFor="let topic of getControls()" (click)="removeTopic(topic)" class="list-group-item">
+            {{topic.value}}
         </li>
     </ul>
 </form>
