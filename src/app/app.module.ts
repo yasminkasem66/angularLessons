@@ -16,6 +16,7 @@ import { FormWorkTestComponent } from './form-work-test/form-work-test.component
 import { FormWorkTest2Component } from './form-work-test2/form-work-test2.component';
 import { Ng2TelInputComponent } from './ng2-tel-input/ng2-tel-input.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { Ng2TelInputModule } from 'ng2-tel-input';
 import { HomeComponent } from './Home/home.component';
 import { HighLightDirective } from './@core/directives/high-light.directive';
@@ -27,6 +28,8 @@ import { ChangepasswordComponent } from './changepassword/changepassword.compone
 import { AppErrorHandlerService } from './@AppServices/services/app-error-handler.service';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { LoginComponent } from './login/login.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { MaterialModule } from './shared/material.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,6 +61,8 @@ import { LoginComponent } from './login/login.component';
     BrowserAnimationsModule, // built on the top of web animation api 
     Ng2TelInputModule,
     HttpClientModule,
+    MaterialModule,
+    ModalModule.forRoot()
   ],
   providers: [{ provide: ErrorHandler, useClass: AppErrorHandlerService }],
   bootstrap: [AppComponent],

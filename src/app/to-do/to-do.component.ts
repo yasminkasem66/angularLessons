@@ -1,8 +1,9 @@
 import { fadeInAnimation } from './../@core/animations/fade';
 import { trigger, transition, style, animate, useAnimation } from '@angular/animations';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
 import { AbstractControl, FormArray, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { bounceOutLeftAnimation } from '../@core/animations/fade';
+import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-to-do',
@@ -25,7 +26,13 @@ import { bounceOutLeftAnimation } from '../@core/animations/fade';
     )
   ]
 })
+
+
+
+
+
 export class ToDosComponent implements OnInit {
+  modalRef?: BsModalRef;
   CousesForm = new FormGroup({
     topics: new FormArray([
       new FormControl('course1'),
@@ -35,7 +42,7 @@ export class ToDosComponent implements OnInit {
     ]),
   });
 
-  constructor(fb: FormBuilder) {
+  constructor(fb: FormBuilder, private modalService: BsModalService) {
 
   }
 
@@ -71,6 +78,10 @@ export class ToDosComponent implements OnInit {
   animationDone(event: any) {
     console.log({ event });
 
+  }
+
+  openModal(template: TemplateRef<any>) {
+    this.modalRef = this.modalService.show(template);
   }
 }
 
